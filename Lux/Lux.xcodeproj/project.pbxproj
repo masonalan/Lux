@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0049CC761C6BCC3F00FF7FD2 /* TranslationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0049CC751C6BCC3F00FF7FD2 /* TranslationsViewController.swift */; };
+		009C8E101C67988400D6F2F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C8E0E1C67988400D6F2F9 /* Constants.swift */; };
+		009C8E221C684B8200D6F2F9 /* LuxToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C8E201C684B8200D6F2F9 /* LuxToolbar.swift */; };
+		009C8E261C684C0E00D6F2F9 /* LatinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C8E241C684C0E00D6F2F9 /* LatinView.swift */; };
+		009C8E291C684DCA00D6F2F9 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C8E281C684DCA00D6F2F9 /* CommentView.swift */; };
+		009C8E2C1C684DE600D6F2F9 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C8E2A1C684DE600D6F2F9 /* Logging.swift */; };
+		009C8E2F1C684EBA00D6F2F9 /* CommentListClipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C8E2E1C684EBA00D6F2F9 /* CommentListClipView.swift */; };
+		009C8E341C684F8E00D6F2F9 /* LuxWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C8E331C684F8E00D6F2F9 /* LuxWindow.swift */; };
+		00A8CE161C63C63B0012B365 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A8CE151C63C63B0012B365 /* AppDelegate.swift */; };
+		00A8CE181C63C63B0012B365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A8CE171C63C63B0012B365 /* Assets.xcassets */; };
+		00A8CE1B1C63C63B0012B365 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A8CE191C63C63B0012B365 /* MainMenu.xib */; };
+		00A8CE261C63C63C0012B365 /* LuxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A8CE251C63C63C0012B365 /* LuxTests.swift */; };
+		00A8CE311C63C63C0012B365 /* LuxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A8CE301C63C63C0012B365 /* LuxUITests.swift */; };
+		00A8CE3F1C63C7CC0012B365 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A8CE3E1C63C7CC0012B365 /* Theme.swift */; };
+		00A8CE411C63E3610012B365 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A8CE401C63E3610012B365 /* NavigationController.swift */; };
+		00A8CE431C6425800012B365 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 00A8CE421C6425800012B365 /* Fonts */; };
+		00A8CE461C64297E0012B365 /* LuxWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A8CE441C64297E0012B365 /* LuxWindowController.swift */; };
+		00A8CE4A1C642BDA0012B365 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A8CE481C642BDA0012B365 /* EditorViewController.swift */; };
+		00A8CE4E1C6440790012B365 /* LatinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A8CE4C1C6440790012B365 /* LatinViewController.swift */; };
+		00A8CE521C64686D0012B365 /* SelectionOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A8CE501C64686D0012B365 /* SelectionOptionsViewController.swift */; };
+		00D6B56D1C65423C0049DDBF /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D6B56B1C65423C0049DDBF /* CommentsViewController.swift */; };
+		00E286A81C693930004F7640 /* CommentsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E286A71C693930004F7640 /* CommentsTableView.swift */; };
+		00E286D31C695168004F7640 /* LuxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E286D21C695168004F7640 /* LuxKit.framework */; };
+		00E286D61C695811004F7640 /* LatinView_OLD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E286D51C695811004F7640 /* LatinView_OLD.swift */; };
+		00E286D81C6ADA3B004F7640 /* Lux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E286D71C6ADA3B004F7640 /* Lux.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00A8CE221C63C63C0012B365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00A8CE0A1C63C63B0012B365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A8CE111C63C63B0012B365;
+			remoteInfo = Lux;
+		};
+		00A8CE2D1C63C63C0012B365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00A8CE0A1C63C63B0012B365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A8CE111C63C63B0012B365;
+			remoteInfo = Lux;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0049CC751C6BCC3F00FF7FD2 /* TranslationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslationsViewController.swift; sourceTree = "<group>"; };
+		009C8E0E1C67988400D6F2F9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		009C8E201C684B8200D6F2F9 /* LuxToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuxToolbar.swift; sourceTree = "<group>"; };
+		009C8E241C684C0E00D6F2F9 /* LatinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = LatinView.swift; sourceTree = "<group>"; tabWidth = 4; };
+		009C8E281C684DCA00D6F2F9 /* CommentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
+		009C8E2A1C684DE600D6F2F9 /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		009C8E2E1C684EBA00D6F2F9 /* CommentListClipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentListClipView.swift; sourceTree = "<group>"; };
+		009C8E331C684F8E00D6F2F9 /* LuxWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuxWindow.swift; sourceTree = "<group>"; };
+		00A8CE121C63C63B0012B365 /* Lux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A8CE151C63C63B0012B365 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00A8CE171C63C63B0012B365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00A8CE1A1C63C63B0012B365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		00A8CE1C1C63C63B0012B365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A8CE211C63C63C0012B365 /* LuxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A8CE251C63C63C0012B365 /* LuxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxTests.swift; sourceTree = "<group>"; };
+		00A8CE271C63C63C0012B365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A8CE2C1C63C63C0012B365 /* LuxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A8CE301C63C63C0012B365 /* LuxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxUITests.swift; sourceTree = "<group>"; };
+		00A8CE321C63C63C0012B365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A8CE3E1C63C7CC0012B365 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		00A8CE401C63E3610012B365 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		00A8CE421C6425800012B365 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		00A8CE441C64297E0012B365 /* LuxWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuxWindowController.swift; sourceTree = "<group>"; };
+		00A8CE481C642BDA0012B365 /* EditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
+		00A8CE4C1C6440790012B365 /* LatinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatinViewController.swift; sourceTree = "<group>"; };
+		00A8CE501C64686D0012B365 /* SelectionOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionOptionsViewController.swift; sourceTree = "<group>"; };
+		00D6B5601C6514600049DDBF /* Lux-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lux-Bridging-Header.h"; sourceTree = "<group>"; };
+		00D6B56B1C65423C0049DDBF /* CommentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		00E286A71C693930004F7640 /* CommentsTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsTableView.swift; sourceTree = "<group>"; };
+		00E286D21C695168004F7640 /* LuxKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LuxKit.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Dictionary-fdjzylaquaohybecjmxmdtxcvopq/Build/Products/Debug/LuxKit.framework"; sourceTree = "<group>"; };
+		00E286D51C695811004F7640 /* LatinView_OLD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatinView_OLD.swift; sourceTree = "<group>"; };
+		00E286D71C6ADA3B004F7640 /* Lux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lux.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A8CE0F1C63C63B0012B365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E286D31C695168004F7640 /* LuxKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A8CE1E1C63C63C0012B365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A8CE291C63C63C0012B365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0049CC741C6BCC0E00FF7FD2 /* Translations */ = {
+			isa = PBXGroup;
+			children = (
+				0049CC751C6BCC3F00FF7FD2 /* TranslationsViewController.swift */,
+			);
+			name = Translations;
+			sourceTree = "<group>";
+		};
+		009C8E161C684A8400D6F2F9 /* Archive */ = {
+			isa = PBXGroup;
+			children = (
+				00E286D51C695811004F7640 /* LatinView_OLD.swift */,
+				009C8E2E1C684EBA00D6F2F9 /* CommentListClipView.swift */,
+				00A8CE501C64686D0012B365 /* SelectionOptionsViewController.swift */,
+				00A8CE401C63E3610012B365 /* NavigationController.swift */,
+			);
+			name = Archive;
+			sourceTree = "<group>";
+		};
+		009C8E171C684AB700D6F2F9 /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				00A8CE441C64297E0012B365 /* LuxWindowController.swift */,
+				009C8E331C684F8E00D6F2F9 /* LuxWindow.swift */,
+				009C8E201C684B8200D6F2F9 /* LuxToolbar.swift */,
+			);
+			name = Window;
+			sourceTree = "<group>";
+		};
+		009C8E181C684AC500D6F2F9 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				00A8CE481C642BDA0012B365 /* EditorViewController.swift */,
+			);
+			name = Editor;
+			sourceTree = "<group>";
+		};
+		009C8E191C684AE100D6F2F9 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				009C8E0E1C67988400D6F2F9 /* Constants.swift */,
+				009C8E2A1C684DE600D6F2F9 /* Logging.swift */,
+				00A8CE171C63C63B0012B365 /* Assets.xcassets */,
+				00A8CE191C63C63B0012B365 /* MainMenu.xib */,
+				00A8CE1C1C63C63B0012B365 /* Info.plist */,
+				00A8CE421C6425800012B365 /* Fonts */,
+				00D6B5601C6514600049DDBF /* Lux-Bridging-Header.h */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		009C8E1A1C684AFE00D6F2F9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				00A8CE151C63C63B0012B365 /* AppDelegate.swift */,
+				00E286D71C6ADA3B004F7640 /* Lux.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		009C8E1B1C684B0A00D6F2F9 /* Latin */ = {
+			isa = PBXGroup;
+			children = (
+				00A8CE4C1C6440790012B365 /* LatinViewController.swift */,
+				009C8E241C684C0E00D6F2F9 /* LatinView.swift */,
+			);
+			name = Latin;
+			sourceTree = "<group>";
+		};
+		009C8E1C1C684B1000D6F2F9 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				00D6B56B1C65423C0049DDBF /* CommentsViewController.swift */,
+				00E286A71C693930004F7640 /* CommentsTableView.swift */,
+				009C8E281C684DCA00D6F2F9 /* CommentView.swift */,
+			);
+			name = Comments;
+			sourceTree = "<group>";
+		};
+		009C8E1D1C684B1C00D6F2F9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				00A8CE3E1C63C7CC0012B365 /* Theme.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		009C8E1E1C684B3200D6F2F9 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				00A8CE241C63C63C0012B365 /* LuxTests */,
+				00A8CE2F1C63C63C0012B365 /* LuxUITests */,
+				00A8CE131C63C63B0012B365 /* Products */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		00A8CE091C63C63B0012B365 = {
+			isa = PBXGroup;
+			children = (
+				00A8CE141C63C63B0012B365 /* Lux */,
+				009C8E1E1C684B3200D6F2F9 /* Support */,
+			);
+			sourceTree = "<group>";
+		};
+		00A8CE131C63C63B0012B365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A8CE121C63C63B0012B365 /* Lux.app */,
+				00A8CE211C63C63C0012B365 /* LuxTests.xctest */,
+				00A8CE2C1C63C63C0012B365 /* LuxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00A8CE141C63C63B0012B365 /* Lux */ = {
+			isa = PBXGroup;
+			children = (
+				009C8E1A1C684AFE00D6F2F9 /* App */,
+				009C8E171C684AB700D6F2F9 /* Window */,
+				009C8E181C684AC500D6F2F9 /* Editor */,
+				009C8E1B1C684B0A00D6F2F9 /* Latin */,
+				009C8E1C1C684B1000D6F2F9 /* Comments */,
+				0049CC741C6BCC0E00FF7FD2 /* Translations */,
+				009C8E1D1C684B1C00D6F2F9 /* Components */,
+				009C8E191C684AE100D6F2F9 /* Support */,
+				00E286D41C695172004F7640 /* Frameworks */,
+				009C8E161C684A8400D6F2F9 /* Archive */,
+			);
+			path = Lux;
+			sourceTree = "<group>";
+		};
+		00A8CE241C63C63C0012B365 /* LuxTests */ = {
+			isa = PBXGroup;
+			children = (
+				00A8CE251C63C63C0012B365 /* LuxTests.swift */,
+				00A8CE271C63C63C0012B365 /* Info.plist */,
+			);
+			path = LuxTests;
+			sourceTree = "<group>";
+		};
+		00A8CE2F1C63C63C0012B365 /* LuxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00A8CE301C63C63C0012B365 /* LuxUITests.swift */,
+				00A8CE321C63C63C0012B365 /* Info.plist */,
+			);
+			path = LuxUITests;
+			sourceTree = "<group>";
+		};
+		00E286D41C695172004F7640 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00E286D21C695168004F7640 /* LuxKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A8CE111C63C63B0012B365 /* Lux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A8CE351C63C63C0012B365 /* Build configuration list for PBXNativeTarget "Lux" */;
+			buildPhases = (
+				00A8CE0E1C63C63B0012B365 /* Sources */,
+				00A8CE0F1C63C63B0012B365 /* Frameworks */,
+				00A8CE101C63C63B0012B365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lux;
+			productName = Lux;
+			productReference = 00A8CE121C63C63B0012B365 /* Lux.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00A8CE201C63C63C0012B365 /* LuxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A8CE381C63C63C0012B365 /* Build configuration list for PBXNativeTarget "LuxTests" */;
+			buildPhases = (
+				00A8CE1D1C63C63C0012B365 /* Sources */,
+				00A8CE1E1C63C63C0012B365 /* Frameworks */,
+				00A8CE1F1C63C63C0012B365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A8CE231C63C63C0012B365 /* PBXTargetDependency */,
+			);
+			name = LuxTests;
+			productName = LuxTests;
+			productReference = 00A8CE211C63C63C0012B365 /* LuxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00A8CE2B1C63C63C0012B365 /* LuxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A8CE3B1C63C63C0012B365 /* Build configuration list for PBXNativeTarget "LuxUITests" */;
+			buildPhases = (
+				00A8CE281C63C63C0012B365 /* Sources */,
+				00A8CE291C63C63C0012B365 /* Frameworks */,
+				00A8CE2A1C63C63C0012B365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A8CE2E1C63C63C0012B365 /* PBXTargetDependency */,
+			);
+			name = LuxUITests;
+			productName = LuxUITests;
+			productReference = 00A8CE2C1C63C63C0012B365 /* LuxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00A8CE0A1C63C63B0012B365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "James Pickering";
+				TargetAttributes = {
+					00A8CE111C63C63B0012B365 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					00A8CE201C63C63C0012B365 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 00A8CE111C63C63B0012B365;
+					};
+					00A8CE2B1C63C63C0012B365 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 00A8CE111C63C63B0012B365;
+					};
+				};
+			};
+			buildConfigurationList = 00A8CE0D1C63C63B0012B365 /* Build configuration list for PBXProject "Lux" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00A8CE091C63C63B0012B365;
+			productRefGroup = 00A8CE131C63C63B0012B365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A8CE111C63C63B0012B365 /* Lux */,
+				00A8CE201C63C63C0012B365 /* LuxTests */,
+				00A8CE2B1C63C63C0012B365 /* LuxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A8CE101C63C63B0012B365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A8CE431C6425800012B365 /* Fonts in Resources */,
+				00A8CE181C63C63B0012B365 /* Assets.xcassets in Resources */,
+				00A8CE1B1C63C63B0012B365 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A8CE1F1C63C63C0012B365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A8CE2A1C63C63C0012B365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A8CE0E1C63C63B0012B365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A8CE161C63C63B0012B365 /* AppDelegate.swift in Sources */,
+				009C8E2C1C684DE600D6F2F9 /* Logging.swift in Sources */,
+				00A8CE461C64297E0012B365 /* LuxWindowController.swift in Sources */,
+				00A8CE411C63E3610012B365 /* NavigationController.swift in Sources */,
+				00E286A81C693930004F7640 /* CommentsTableView.swift in Sources */,
+				00A8CE4A1C642BDA0012B365 /* EditorViewController.swift in Sources */,
+				00D6B56D1C65423C0049DDBF /* CommentsViewController.swift in Sources */,
+				0049CC761C6BCC3F00FF7FD2 /* TranslationsViewController.swift in Sources */,
+				00A8CE521C64686D0012B365 /* SelectionOptionsViewController.swift in Sources */,
+				009C8E261C684C0E00D6F2F9 /* LatinView.swift in Sources */,
+				00A8CE3F1C63C7CC0012B365 /* Theme.swift in Sources */,
+				00A8CE4E1C6440790012B365 /* LatinViewController.swift in Sources */,
+				00E286D81C6ADA3B004F7640 /* Lux.swift in Sources */,
+				009C8E341C684F8E00D6F2F9 /* LuxWindow.swift in Sources */,
+				009C8E2F1C684EBA00D6F2F9 /* CommentListClipView.swift in Sources */,
+				009C8E101C67988400D6F2F9 /* Constants.swift in Sources */,
+				00E286D61C695811004F7640 /* LatinView_OLD.swift in Sources */,
+				009C8E291C684DCA00D6F2F9 /* CommentView.swift in Sources */,
+				009C8E221C684B8200D6F2F9 /* LuxToolbar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A8CE1D1C63C63C0012B365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A8CE261C63C63C0012B365 /* LuxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A8CE281C63C63C0012B365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A8CE311C63C63C0012B365 /* LuxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00A8CE231C63C63C0012B365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00A8CE111C63C63B0012B365 /* Lux */;
+			targetProxy = 00A8CE221C63C63C0012B365 /* PBXContainerItemProxy */;
+		};
+		00A8CE2E1C63C63C0012B365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00A8CE111C63C63B0012B365 /* Lux */;
+			targetProxy = 00A8CE2D1C63C63C0012B365 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00A8CE191C63C63B0012B365 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A8CE1A1C63C63B0012B365 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00A8CE331C63C63C0012B365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00A8CE341C63C63C0012B365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		00A8CE361C63C63C0012B365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Lux/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wiretech.Lux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lux/Lux-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00A8CE371C63C63C0012B365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Lux/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wiretech.Lux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lux/Lux-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		00A8CE391C63C63C0012B365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LuxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wiretech.LuxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lux.app/Contents/MacOS/Lux";
+			};
+			name = Debug;
+		};
+		00A8CE3A1C63C63C0012B365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LuxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wiretech.LuxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lux.app/Contents/MacOS/Lux";
+			};
+			name = Release;
+		};
+		00A8CE3C1C63C63C0012B365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LuxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wiretech.LuxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Lux;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		00A8CE3D1C63C63C0012B365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LuxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wiretech.LuxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Lux;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A8CE0D1C63C63B0012B365 /* Build configuration list for PBXProject "Lux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A8CE331C63C63C0012B365 /* Debug */,
+				00A8CE341C63C63C0012B365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A8CE351C63C63C0012B365 /* Build configuration list for PBXNativeTarget "Lux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A8CE361C63C63C0012B365 /* Debug */,
+				00A8CE371C63C63C0012B365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A8CE381C63C63C0012B365 /* Build configuration list for PBXNativeTarget "LuxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A8CE391C63C63C0012B365 /* Debug */,
+				00A8CE3A1C63C63C0012B365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A8CE3B1C63C63C0012B365 /* Build configuration list for PBXNativeTarget "LuxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A8CE3C1C63C63C0012B365 /* Debug */,
+				00A8CE3D1C63C63C0012B365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00A8CE0A1C63C63B0012B365 /* Project object */;
+}

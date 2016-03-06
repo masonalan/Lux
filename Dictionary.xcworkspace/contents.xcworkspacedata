@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Lux/Lux.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LuxKit/LuxKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/jamespickering/Desktop/Latin/Whitaker/WhitakerKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DictionaryTest/DictionaryTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

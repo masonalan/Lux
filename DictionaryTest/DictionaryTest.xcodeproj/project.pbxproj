@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A8CD3F1C603E000012B365 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A8CD3E1C603E000012B365 /* main.swift */; };
+		00A8CDD31C61A8710012B365 /* Whitaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A8CDD21C61A8710012B365 /* Whitaker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00A8CD391C603E000012B365 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00A8CD3B1C603E000012B365 /* DictionaryTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DictionaryTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A8CD3E1C603E000012B365 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		00A8CDCA1C6049E60012B365 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		00A8CDD21C61A8710012B365 /* Whitaker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Whitaker.framework; path = ../Whitaker/build/Debug/Whitaker.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A8CD381C603E000012B365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A8CDD31C61A8710012B365 /* Whitaker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A8CD321C603E000012B365 = {
+			isa = PBXGroup;
+			children = (
+				00A8CD3D1C603E000012B365 /* DictionaryTest */,
+				00A8CDC01C603F920012B365 /* Frameworks */,
+				00A8CD3C1C603E000012B365 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00A8CD3C1C603E000012B365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A8CD3B1C603E000012B365 /* DictionaryTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00A8CD3D1C603E000012B365 /* DictionaryTest */ = {
+			isa = PBXGroup;
+			children = (
+				00A8CD3E1C603E000012B365 /* main.swift */,
+			);
+			path = DictionaryTest;
+			sourceTree = "<group>";
+		};
+		00A8CDC01C603F920012B365 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00A8CDD21C61A8710012B365 /* Whitaker.framework */,
+				00A8CDCA1C6049E60012B365 /* libxml2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A8CD3A1C603E000012B365 /* DictionaryTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A8CD421C603E000012B365 /* Build configuration list for PBXNativeTarget "DictionaryTest" */;
+			buildPhases = (
+				00A8CD371C603E000012B365 /* Sources */,
+				00A8CD381C603E000012B365 /* Frameworks */,
+				00A8CD391C603E000012B365 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DictionaryTest;
+			productName = DictionaryTest;
+			productReference = 00A8CD3B1C603E000012B365 /* DictionaryTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00A8CD331C603E000012B365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "James Pickering";
+				TargetAttributes = {
+					00A8CD3A1C603E000012B365 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 00A8CD361C603E000012B365 /* Build configuration list for PBXProject "DictionaryTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00A8CD321C603E000012B365;
+			productRefGroup = 00A8CD3C1C603E000012B365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A8CD3A1C603E000012B365 /* DictionaryTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A8CD371C603E000012B365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A8CD3F1C603E000012B365 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00A8CD401C603E000012B365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00A8CD411C603E000012B365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		00A8CD431C603E000012B365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00A8CD441C603E000012B365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A8CD361C603E000012B365 /* Build configuration list for PBXProject "DictionaryTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A8CD401C603E000012B365 /* Debug */,
+				00A8CD411C603E000012B365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A8CD421C603E000012B365 /* Build configuration list for PBXNativeTarget "DictionaryTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A8CD431C603E000012B365 /* Debug */,
+				00A8CD441C603E000012B365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00A8CD331C603E000012B365 /* Project object */;
+}

@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A8CDA41C603EDB0012B365 /* Whitaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A8CDA31C603EDB0012B365 /* Whitaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00A8CDAB1C603EDC0012B365 /* Whitaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A8CDA01C603EDB0012B365 /* Whitaker.framework */; };
+		00A8CDB01C603EDC0012B365 /* WhitakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A8CDAF1C603EDC0012B365 /* WhitakerTests.swift */; };
+		00A8CDC31C603FD00012B365 /* Whitaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A8CDC21C603FD00012B365 /* Whitaker.swift */; };
+		00A8CDC71C6047FB0012B365 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A8CDC61C6047FB0012B365 /* Entry.swift */; };
+		00A8CDCF1C6062760012B365 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A8CDCE1C6062760012B365 /* Word.swift */; };
+		866F4DB05E802ACCF0C118A9 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C17E514A01B1DE166EE5FF /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00A8CDAC1C603EDC0012B365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00A8CD971C603EDB0012B365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A8CD9F1C603EDB0012B365;
+			remoteInfo = Whitaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A8CDA01C603EDB0012B365 /* Whitaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Whitaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A8CDA31C603EDB0012B365 /* Whitaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Whitaker.h; sourceTree = "<group>"; };
+		00A8CDA51C603EDB0012B365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A8CDAA1C603EDC0012B365 /* WhitakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhitakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A8CDAF1C603EDC0012B365 /* WhitakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhitakerTests.swift; sourceTree = "<group>"; };
+		00A8CDB11C603EDC0012B365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A8CDC21C603FD00012B365 /* Whitaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Whitaker.swift; sourceTree = "<group>"; };
+		00A8CDC61C6047FB0012B365 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		00A8CDC81C6049AD0012B365 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		00A8CDCE1C6062760012B365 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		03C17E514A01B1DE166EE5FF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BED32CE61497EA23711B8CC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BCFB5EE3939D6088DE35BE07 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A8CD9C1C603EDB0012B365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866F4DB05E802ACCF0C118A9 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A8CDA71C603EDC0012B365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A8CDAB1C603EDC0012B365 /* Whitaker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A8CD961C603EDB0012B365 = {
+			isa = PBXGroup;
+			children = (
+				00A8CDA21C603EDB0012B365 /* WhitakerKit */,
+				00A8CDAE1C603EDC0012B365 /* WhitakerKitTests */,
+				00A8CDA11C603EDB0012B365 /* Products */,
+				0C931B09C0BA8A6576D8365D /* Pods */,
+				562D9FB1A7FD418483130659 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00A8CDA11C603EDB0012B365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A8CDA01C603EDB0012B365 /* Whitaker.framework */,
+				00A8CDAA1C603EDC0012B365 /* WhitakerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00A8CDA21C603EDB0012B365 /* WhitakerKit */ = {
+			isa = PBXGroup;
+			children = (
+				00A8CDA31C603EDB0012B365 /* Whitaker.h */,
+				00A8CDC21C603FD00012B365 /* Whitaker.swift */,
+				00A8CDC61C6047FB0012B365 /* Entry.swift */,
+				00A8CDCE1C6062760012B365 /* Word.swift */,
+				00A8CDC11C603FA30012B365 /* Supporting */,
+			);
+			name = WhitakerKit;
+			path = Whitaker;
+			sourceTree = "<group>";
+		};
+		00A8CDAE1C603EDC0012B365 /* WhitakerKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				00A8CDAF1C603EDC0012B365 /* WhitakerTests.swift */,
+				00A8CDB11C603EDC0012B365 /* Info.plist */,
+			);
+			name = WhitakerKitTests;
+			path = WhitakerTests;
+			sourceTree = "<group>";
+		};
+		00A8CDC11C603FA30012B365 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				00A8CDA51C603EDB0012B365 /* Info.plist */,
+			);
+			name = Supporting;
+			sourceTree = "<group>";
+		};
+		0C931B09C0BA8A6576D8365D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCFB5EE3939D6088DE35BE07 /* Pods.debug.xcconfig */,
+				7BED32CE61497EA23711B8CC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		562D9FB1A7FD418483130659 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00A8CDC81C6049AD0012B365 /* libxml2.tbd */,
+				03C17E514A01B1DE166EE5FF /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00A8CD9D1C603EDB0012B365 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A8CDA41C603EDB0012B365 /* Whitaker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00A8CD9F1C603EDB0012B365 /* Whitaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A8CDB41C603EDC0012B365 /* Build configuration list for PBXNativeTarget "Whitaker" */;
+			buildPhases = (
+				476FA67E44C95556EF327149 /* Check Pods Manifest.lock */,
+				00A8CD9B1C603EDB0012B365 /* Sources */,
+				00A8CD9C1C603EDB0012B365 /* Frameworks */,
+				00A8CD9D1C603EDB0012B365 /* Headers */,
+				00A8CD9E1C603EDB0012B365 /* Resources */,
+				9431F54707DCB53C3B877614 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Whitaker;
+			productName = Whitaker;
+			productReference = 00A8CDA01C603EDB0012B365 /* Whitaker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		00A8CDA91C603EDC0012B365 /* WhitakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A8CDB71C603EDC0012B365 /* Build configuration list for PBXNativeTarget "WhitakerTests" */;
+			buildPhases = (
+				00A8CDA61C603EDC0012B365 /* Sources */,
+				00A8CDA71C603EDC0012B365 /* Frameworks */,
+				00A8CDA81C603EDC0012B365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A8CDAD1C603EDC0012B365 /* PBXTargetDependency */,
+			);
+			name = WhitakerTests;
+			productName = WhitakerTests;
+			productReference = 00A8CDAA1C603EDC0012B365 /* WhitakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00A8CD971C603EDB0012B365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "James Pickering";
+				TargetAttributes = {
+					00A8CD9F1C603EDB0012B365 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					00A8CDA91C603EDC0012B365 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 00A8CD9A1C603EDB0012B365 /* Build configuration list for PBXProject "WhitakerKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00A8CD961C603EDB0012B365;
+			productRefGroup = 00A8CDA11C603EDB0012B365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A8CD9F1C603EDB0012B365 /* Whitaker */,
+				00A8CDA91C603EDC0012B365 /* WhitakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A8CD9E1C603EDB0012B365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A8CDA81C603EDC0012B365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		476FA67E44C95556EF327149 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9431F54707DCB53C3B877614 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A8CD9B1C603EDB0012B365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A8CDC71C6047FB0012B365 /* Entry.swift in Sources */,
+				00A8CDCF1C6062760012B365 /* Word.swift in Sources */,
+				00A8CDC31C603FD00012B365 /* Whitaker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A8CDA61C603EDC0012B365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A8CDB01C603EDC0012B365 /* WhitakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00A8CDAD1C603EDC0012B365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00A8CD9F1C603EDB0012B365 /* Whitaker */;
+			targetProxy = 00A8CDAC1C603EDC0012B365 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00A8CDB21C603EDC0012B365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		00A8CDB31C603EDC0012B365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		00A8CDB51C603EDC0012B365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCFB5EE3939D6088DE35BE07 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Whitaker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wiretech.Whitaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00A8CDB61C603EDC0012B365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BED32CE61497EA23711B8CC /* Pods.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Whitaker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wiretech.Whitaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		00A8CDB81C603EDC0012B365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhitakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wiretech.WhitakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00A8CDB91C603EDC0012B365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhitakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wiretech.WhitakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A8CD9A1C603EDB0012B365 /* Build configuration list for PBXProject "WhitakerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A8CDB21C603EDC0012B365 /* Debug */,
+				00A8CDB31C603EDC0012B365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A8CDB41C603EDC0012B365 /* Build configuration list for PBXNativeTarget "Whitaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A8CDB51C603EDC0012B365 /* Debug */,
+				00A8CDB61C603EDC0012B365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A8CDB71C603EDC0012B365 /* Build configuration list for PBXNativeTarget "WhitakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A8CDB81C603EDC0012B365 /* Debug */,
+				00A8CDB91C603EDC0012B365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00A8CD971C603EDB0012B365 /* Project object */;
+}
